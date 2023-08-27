@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+<body>
+   {{>navbar}}
+
+   <!-- main header -->
+    
+   <div class="container-fluid main_header">
+       <div class="row">
+           <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!-- left side div -->
+                <div class="col-md-6 col-12 main_header_left">
+                 <p>Welcome to Free service tools Website</p>
+                 <h1>Use the <span style="color:blue;">Fastest</span> and free Service on our website</h1>
+                 <a href="/tools"><button class="btn btn-info btn-lg btn-block">Tools</button></a>
+                </div>
+                <!-- right side div -->
+                <div class="col-md-6 col-12 main_header_right">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="image/images.png" class="w-100 img" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/text.png" class="w-100 img" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/speech.png" class=" w-100 img" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/pdfImage.jpg" class=" w-100 img" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+           </div>
+       </div>
+   </div>
+
+   <section class="sec">
+     <div class="container">
+     <h3><b>Text-to-speech</b></h3>
+     <p>Text-to-speech enables your applications, tools, or devices to convert text into humanlike synthesized speech. The text-to-speech capability is also known as speech synthesis. Use humanlike prebuilt neural voices out of the box, or create a custom neural voice that's unique to your product or brand. For a full list of supported voices, languages, and locales, see Language and voice support for the Speech service.</p>
+     <p>The text-to-speech feature of the Speech service on Azure has been fully upgraded to the neural text-to-speech engine. This engine uses deep neural networks to make the voices of computers nearly indistinguishable from the recordings of people. With the clear articulation of words, neural text-to-speech significantly reduces listening fatigue when users interact with AI systems.
+
+The patterns of stress and intonation in spoken language are called prosody. Traditional text-to-speech systems break down prosody into separate linguistic analysis and acoustic prediction steps that are governed by independent models. That can result in muffled, buzzy voice synthesis.
+
+Here's more information about neural text-to-speech features in the Speech service, and how they overcome the limits of traditional text-to-speech systems:</p>
+   <p>--> <b>Real-time speech synthesis:</b> Use the Speech SDK or REST API to convert text-to-speech by using prebuilt neural voices or custom neural voices <br> <br>
+   --> <b>Asynchronous synthesis of long audio:</b> Use the Long Audio API to asynchronously synthesize text-to-speech files longer than 10 minutes (for example, audio books or lectures). Unlike synthesis performed via the Speech SDK or speech-to-text REST API, responses aren't returned in real time. The expectation is that requests are sent asynchronously, responses are polled for, and synthesized audio is downloaded when the service makes it available. <br> <br>
+   --> <b>Fine-tuning text-to-speech output with SSML:</b> Speech Synthesis Markup Language (SSML) is an XML-based markup language that's used to customize text-to-speech outputs. With SSML, you can adjust pitch, add pauses, improve pronunciation, change speaking rate, adjust volume, and attribute multiple voices to a single document. <br> <br>
+   --> <b>Visemes:</b> Visemes are the key poses in observed speech, including the position of the lips, jaw, and tongue in producing a particular phoneme. Visemes have a strong correlation with voices and phonemes. <br> <br>
+   </p>
+   </div>
+   </section>
+   <section class="sec">
+     <div class="container">
+     <h3><b>Image Resize</b></h3>
+     <p>When you add an image to your PDF file, it is likely you will need to resize the image to fit snugly into your document. The image file will be inserted into your document with its original dimensions by default. Depending on the pool of graphics at your disposal, you may not have the opportunity to choose custom sizes, and this could present issues with formatting.
+
+Thankfully, the PDF format is designed to accommodate your images, whether they are too big or too small at first. Unlike a Microsoft Word file which is predominately used for text, a PDF is more like a canvas without conventional page limits. The flexibility the format provides allows you to easily resize an image in a PDF file with minimal efforts.
+
+A reliable PDF editor like WebTools will make it quick and easy to resize an image. Not only can you change an image’s size, you can clip/crop your image, providing full customization.</p><br><br>
+     <b><p>
+steps to resize or convert image <br>
+1. choose the image in png, jpg or in webp which you want to convert or resize. <br>
+2. choose the format like you want to convert it into png, jpg or in webp. <br>
+3. set width of the image. <br>
+4. set height of the image. <br>
+5. now click on download image button to get the result. <br>
+     </p></b>
+   </div>
+   </div>
+   </section>
+
+   <section class="sec">
+     <div class="container">
+     <h3><b>Image To Pdf</b></h3>
+     <p>It’s easy to convert an image file such as a JPG to PDF. Just drag and drop your file into the tool above, then download the converted PDF. Use the tool again to convert another image file. You can then merge the PDFs into a single PDF file<p>
+steps to convert image to pdf <br>
+1. click on choose file. <br>
+2. upload image in png, jpg, or in webp on our website. <br>
+3. here you can add more image if you want to merger your images into single pdf. <br>
+4. click on conver to pdf our website will autometically convert your file. <br>
+     </p>
+   </div>
+   </div>
+   </section>
+   {{>footer}}
+</body>
+</html>

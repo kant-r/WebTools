@@ -1,0 +1,22 @@
+{
+  "name": "new-website-using-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravikant",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "gtts.js": "^1.0.1",
+    "hbs": "^4.2.0",
+    "image-size": "^1.0.1",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16",
+    "sharp": "^0.30.4"
+  }
+}
